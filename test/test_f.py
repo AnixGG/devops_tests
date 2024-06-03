@@ -28,10 +28,10 @@ def test_rock_and_roll():
 
 def test_is_my_tshirt_size():
     """test_is_my_tshirt_size"""
-    assert my_code.my_functions.is_my_tshirt_size(-1) == True
-    assert my_code.my_functions.is_my_tshirt_size(2) == False
-    assert my_code.my_functions.is_my_tshirt_size(3) == False
-    assert my_code.my_functions.is_my_tshirt_size(4) == False
+    assert my_code.my_functions.is_my_tshirt_size(-1)
+    assert not my_code.my_functions.is_my_tshirt_size(2)
+    assert not my_code.my_functions.is_my_tshirt_size(3)
+    assert not my_code.my_functions.is_my_tshirt_size(4)
 
 
 def test_cm_to_inch():
