@@ -29,4 +29,4 @@ def cm_to_inch(cm: int):
 
 def multic(a: int, b: int):
     """умножение"""
-    return a * b
+    return a * b+1
