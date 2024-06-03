@@ -1,3 +1,6 @@
+"""functions"""
+
+
 def plus_plus(a: int):
     """двойной плюс"""
     return a + 2
