@@ -23,4 +23,4 @@ def cm_to_inch(cm: int):
 
 
 def multic(a: int, b: int):
-    return a * b # проверка
+    return a * b
