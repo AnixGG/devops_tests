@@ -7,7 +7,7 @@ def plus_plus(a: int):
 
 
 def minus_minus(a: int):
-
+    """двойной минус"""
     return a - 2
 
 
